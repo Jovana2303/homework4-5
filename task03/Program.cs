@@ -35,6 +35,7 @@ if (sentence == null)
 else
 {
     string[] words = sentence.Split(" ");
+    
     foreach (string word in words){
         if(longestWord.Length < word.Length)
         {
